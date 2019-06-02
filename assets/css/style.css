@@ -1,0 +1,54 @@
+.container-header
+{
+    height:130px;
+    
+}
+
+.header
+{
+    text-align: center;
+    color: red;
+   font-weight: bolder;
+  
+}
+
+.random-number{
+   background:green;
+    line-height:80px;
+    font-size:20px;
+    color:white;
+}
+.winandlose{
+    background:blue;
+    line-height:30px;
+    font-size:20px;
+    color:white;
+}
+.border-box {
+   /* border:1px solid grey;*/
+    margin:1px;
+    background-color:#d3d3d3;
+    height:500px;
+  }
+  
+  .dynamicbutton{
+    height:80px;
+     width:80px;
+
+  }
+  #buttons {
+    /* padding-top: 20px;*/
+    margin-top:0px;
+    width:100%; 
+    height:60px;
+  }
+#result{
+
+    margin-top:40px;
+    padding:40px;
+    background-color: green;
+    color:white;
+    height:80px;
+    width:180px;
+}
+

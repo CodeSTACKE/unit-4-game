@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title> Crystal Collector Game  </title>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" type="text/css"  href="assets/css/style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- Added link to the jQuery Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body>   
+    
+    <div class="jumbotron jumbotron-fluid container-header">
+                <div class="container">
+                  <h1 class="display-4  header">Crystal Collector</h1>
+                  <p class="lead"></p>
+                </div>
+    </div>
+        <div class="container">
+                <div class="row">
+                    <div class="col-6 col-sm-3">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-header" >
+                                Instructions
+                            </div>
+                                <ul class="list-group list-group-flush">
+                                     <li class="list-group-item">You have given a random number at the start of the game</li>
+                                     <li class="list-group-item">There are four crystal below.By clicking on a crystal you will add a specific amount of points to your total. </li>
+                                     <li class="list-group-item">You win the game by matching your total score to random number,you lose the game if your total score goes above the random number.</li>
+                                     <li class="list-group-item">The value of each crystal is hidden from you until you click on it.</li>
+                                     <li class="list-group-item">Each time when the game starts, the game will change the values of each crystal.</li>
+                                </ul>
+                        </div>
+                    </div>
+                   
+                    <div class="col .col-md-3">
+                        <div class="card container border-box">
+                            <p class="random-number" id="randomnumber">Random Number :</p>
+                            <p id="winsandloss"  class="winandlose">Wins\Loss Score:
+                                <p id="wins">Wins : 0</p>
+                                <p id="lose">Losses : 0</p>
+                                <p id="tscore" class="winandlose">Total Score :</p>
+                                <p id="tscorediplay" class="random-number">Score :</p>
+                            </p>
+                               
+                            
+                            <div id="buttons" class='dynamicbutton'></div>                     
+                            <div id="result" class="buresult"> </div>                         
+                        </div>
+                    </div>
+                </div>                    
+                   
+            </div>
+        </div>    
+       
+    
+             
+
+            
+</body>
+</html>
+
