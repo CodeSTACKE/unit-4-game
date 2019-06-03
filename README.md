@@ -8,4 +8,7 @@
 4. The value of each crystal is hidden from you until you click on it.
 5. Each time when the game starts, the game will change the values of each crystal.
 
+          play the Game here..Have fun..
+          https://jyotigithub1.github.io/unit-4-game/.
+
   
